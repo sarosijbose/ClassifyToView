@@ -34,13 +34,13 @@ Launch the _Visualizations_leaf_diseases.ipynb_ file inside the _Code_ folder.
 cd Code
 jupyter notebook Visualizations_leaf_diseases.ipynb
 ```
-The FiftyOne App session will be launched inside the cell of the notebook. 
+Here, the contents of the ```.csv``` file were re-written into this [excel file](https://github.com/sarobml2000/Leaf-Disease-Classification/blob/main/Pred_Classes.xlsx) for easier handling and loading. 
+The FiftyOne App session will be launched inside the cell of the notebook which can then be used for various purposes as outlined above.
 
 ## Hardware Used:-
-OS: Windows 10 Home.
-CPU: Intel i5 8th generation.
-GPU: NVIDIA GeForce 940 MX.
+OS: Windows 10 Home.  
+CPU: Intel i5 8th generation.  
+GPU: NVIDIA GeForce 940 MX.  
 RAM: 8 GB.
-
 
 _Dataset Credit_: [Samir Bhattarai](https://www.kaggle.com/vipoooool)
