@@ -42,4 +42,5 @@ CPU: Intel i5 8th generation.
 GPU: NVIDIA GeForce 940 MX.
 RAM: 8 GB.
 
-Dataset Credit: [Samir Bhattarai](https://www.kaggle.com/vipoooool)
+
+_Dataset Credit_: [Samir Bhattarai](https://www.kaggle.com/vipoooool)
