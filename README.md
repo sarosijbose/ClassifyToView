@@ -6,11 +6,22 @@ This repository contains code for classifying various diseases in plant leaves b
 ## Project Setup:-
 ### 1. Download the Dataset and modify it.
 
+Download the dataset [here](https://www.kaggle.com/vipoooool/new-plant-diseases-dataset).
+
+In the ```train```, ```test``` and ```valid``` folders, remove the ```tomato``` leaf species folders. This is done for two reasons.
+
+* The tomato species alone accounts for over 1/3 of the test data. This results in a problem with the predictions obtained in the csv file since that file is used for visualizations in the App. This prevents the data which is visualized there from being extremely skewed.
+* As a result of this exclusion, it has to be removed from the valid and test folders as well.
+
+NOTE: Inside the ```train``` and ```valid``` folders, the name of the folders (the various species) have to be in alphabetical order.
+
 ### 2. Clone the Repository.
 ```bash
 git clone https://github.com/sarobml2000/Leaf-Disease-Classification.git
 ```
 ### 3. FineTune the model.
+
+Launch the 
 
 ### 4. Visualize with FiftyOne.
 
