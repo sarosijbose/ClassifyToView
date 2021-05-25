@@ -21,9 +21,25 @@ git clone https://github.com/sarobml2000/Leaf-Disease-Classification.git
 ```
 ### 3. FineTune the model.
 
-Launch the 
+Launch the _Leaf_Disease_Classification_Model.ipynb_ file inside the _Code_ folder.
+```bash
+cd Code
+jupyter notebook Leaf_Disease_Classification_Model.ipynb
+```
+The pre-trained weights for the AlexNet architecture can be found [here](https://drive.google.com/file/d/1iP2E2Didog_yPk-6s1Idlxz0Bz4Xkm3i/view?usp=sharing)
 
 ### 4. Visualize with FiftyOne.
+Launch the _Visualizations_leaf_diseases.ipynb_ file inside the _Code_ folder.
+```bash
+cd Code
+jupyter notebook Visualizations_leaf_diseases.ipynb
+```
+The FiftyOne App session will be launched inside the cell of the notebook. 
 
+## Hardware Used:-
+OS: Windows 10 Home.
+CPU: Intel i5 8th generation.
+GPU: NVIDIA GeForce 940 MX.
+RAM: 8 GB.
 
-
+Dataset Credit: [Samir Bhattarai](https://www.kaggle.com/vipoooool)
