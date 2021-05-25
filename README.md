@@ -19,13 +19,14 @@ NOTE: Inside the ```train``` and ```valid``` folders, the name of the folders (t
 ```bash
 git clone https://github.com/sarobml2000/Leaf-Disease-Classification.git
 ```
-### 3. FineTune the model.
+### 3. FineTune the model and generate predictions.
 
 Launch the _Leaf_Disease_Classification_Model.ipynb_ file inside the _Code_ folder.
 ```bash
 cd Code
 jupyter notebook Leaf_Disease_Classification_Model.ipynb
 ```
+The predictions on the test data will be written to the csv file.
 The pre-trained weights for the AlexNet architecture can be found [here](https://drive.google.com/file/d/1iP2E2Didog_yPk-6s1Idlxz0Bz4Xkm3i/view?usp=sharing)
 
 ### 4. Visualize with FiftyOne.
