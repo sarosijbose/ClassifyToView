@@ -17,7 +17,7 @@ NOTE: Inside the ```train``` and ```valid``` folders, the name of the folders (t
 
 ### 2. Clone the Repository.
 ```bash
-git clone https://github.com/sarobml2000/Leaf-Disease-Classification.git
+git clone https://github.com/sarobml2000/ClassifyToView.git
 ```
 ### 3. FineTune the model and generate predictions.
 
