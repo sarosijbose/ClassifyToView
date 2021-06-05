@@ -11,7 +11,7 @@ Download the dataset [here](https://www.kaggle.com/vipoooool/new-plant-diseases-
 In the ```train```, ```test``` and ```valid``` folders, remove the ```tomato``` leaf species folders. This is done for two reasons.
 
 * The tomato species alone accounts for over 1/3 of the test data. This results in a problem with the predictions obtained in the csv file since that file is used for visualizations in the App. This prevents the data which is visualized there from being extremely skewed.
-* As a result of this exclusion, it has to be removed from the valid and test folders as well.
+* As a result of this exclusion, it has to be removed from the ```valid``` and ```test``` folders as well.
 
 NOTE: Inside the ```train``` and ```valid``` folders, the name of the folders (the various species) have to be in alphabetical order.
 
